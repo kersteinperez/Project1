@@ -1,0 +1,43 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.container {
+  width: 900px;
+  height: 700px;
+  margin: 0 auto;
+  display: block;
+  background-color: white;
+}
+
+.column {
+  width: 120px;
+  height: 900px;
+  float: left;
+
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: #e0d9d2;
+  border: 3px solid #e0d9d2;
+
+
+  text-align: center;
+  line-height: 160px;
+  color: #6c6c6c;
+  font-size: 100px;
+  clear: both;
+  display: block;
+}
+
+.cell: hover {
+  border: 3px solid #ccc0b3;
+}
