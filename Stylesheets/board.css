@@ -1,12 +1,23 @@
 body {
+  background-image: url(http://www.wallpaperup.com/uploads/wallpapers/2013/11/30/181017/big_thumb_7c5d8fdc1a775b8b550761bc82a46d4f.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 100%;
   height: 100%;
 }
+
+h1, h2 {
+  color: white;
+  text-align: center;
+
+}
+
+
 #gameboard {
   width: 700px;
   height: 575px;
   margin: 0 auto;
-  background-color: #d3d3d3;
+  background-color: #transparent;
 }
 .column {
   width: 100px;
@@ -18,6 +29,7 @@ body {
   height: 90px;
   margin: 5px auto;
   border-radius: 50px;
+  opacity: 0.3;
 }
 .grey {
   background-color: grey;
@@ -25,6 +37,6 @@ body {
 .red {
   background-color: red;
 }
-.black {
-  background-color: black;
+.blue {
+  background-color: blue;
 }

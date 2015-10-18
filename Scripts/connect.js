@@ -4,10 +4,10 @@ window.onload = function() {
 
 
 //Alert: Player 1, what is your name?
-//var playerOneName=prompt('Player One, Please type in your name:','');
+//var playerOneName=prompt('Playa One, Tell 'Em Ya Name':','');
 
 //Alert: Player 2, what is your name?
-//var playerTwoName=prompt('Player Two, Please type in your name:','');
+//var playerTwoName=prompt('Playa Two, Tell 'Em Ya Name':','');
 
 //Highlights the column you are on
 function columnHighlightOn(column){
@@ -50,7 +50,7 @@ function colorCell(cell, isRedTurn){
     cell.removeClass("grey").addClass("red");
   } else {
     //if it's not red's turn, and cell is available, remove grey and add black
-    cell.removeClass("grey").addClass("black");
+    cell.removeClass("grey").addClass("blue");
   };
 };
 
@@ -62,7 +62,7 @@ function checkWinner(cell, isRedTurn){
   var id = cell.attr("id").split("-"),
       col = id[0],
       row = id[1],
-      color = isRedTurn ? "red" : "black";
+      color = isRedTurn ? "red" : "blue";
 
   //check north-south
   if (checkNorthSouth(col, row, color) ||
@@ -174,7 +174,7 @@ function endGame(isRedTurn){
   if (isRedTurn){
     alert("Red Wins!");
   } else {
-    alert("Black Wins!");
+    alert("Blue Wins!");
   };
 };
 
