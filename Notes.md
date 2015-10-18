@@ -26,9 +26,6 @@
 
 10. Go back to Player 1 **refer to step 6**
 
-* For first 4 rounds (Player 1 turn + Player 2 turn) there won't be a winner.
-
-* After the fourth round, check for winner.
 
 * If no winner, go back to Player 1 then Player 2.
 
