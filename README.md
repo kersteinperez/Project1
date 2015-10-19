@@ -1,5 +1,7 @@
 # Project1
 
+http://connect4kpgame.bitballoon.com/
+
 For this project I used HTML, CSS, vanilla JavaScript and JQuery.
 
 I used trello to keep track of my workflow, and mockflow to create a wireframe.
