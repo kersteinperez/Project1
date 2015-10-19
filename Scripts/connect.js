@@ -3,13 +3,13 @@ window.onload = function() {
 
 
 // Alert: Player 1, what is your name?
-var reply = prompt("Playa 1, what's your name?", "")
-alert ( "Play on, playa " + reply + "!")
+var reply = prompt("Play on, playa 1. What's your name?", "")
+alert ( "Now let me welcome " + reply + " to the Wild Wild West")
 
 
 // Alert: Player 2, what is your name?
-var reply = prompt("Playa 2, what's your name?", "")
-alert ( "Play on, playa " + reply + "!")
+var reply = prompt("Play on, playa 2. What's your name?", "")
+alert ( "I love it when you call me Big " + reply + "!")
 
 // Check if cell is available (does it have grey in it?)
 function checkColumn(column){
